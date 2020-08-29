@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	background-image:url(images/lightpaperfibers.png);
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+#container {
+	width:860px;
+	min-height:500px;
+	clear:both;
+	margin:0 auto;
+	padding:0 20px 20px 20px;
+}
+
+#header {
+	width:900px;
+	height: 250px;
+	margin:0 auto;
+	position:relative;
+}
+
+.navigation a {
+	font-family: 'Amaranth', sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	color:#000;
+	padding:15px;
+	
+}
+
+.navigation a:hover {
+	color:#5FAE47;
+}
+
+.navigation {
+	position:relative;
+	top:160px;
+}
+
+.navleft {
+	position:relative;
+	left:20px;
+}
+
+#logo {
+	position:absolute;
+	left:210px;
+	right:230px;
+	top:0px;
+	float:left;
+}
+
+.navright {
+	position:absolute;
+	right:25px;
+	float:left;
+}
+
+#second-nav {
+	position:absolute;
+	right:40px;
+	top:200px;
+}
+
+#second-nav a {
+	font-size:14px;
+	font-weight:bold;
+	color:#F09;
+}
+
+#footer {
+	width:900px;
+	height:40px;
+	clear:both;
+	font-size:12px;
+	text-align:center;
+	padding:10px 0 10px 0;
+	border-top:thin;
+	border-top-color:#000;
+	border-top-style:solid;
+}

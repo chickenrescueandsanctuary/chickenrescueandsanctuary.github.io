@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#home1 {
+	height:200px;
+}
+
+#block-one {
+	width:860px;
+	position:relative;
+	float:left;
+	margin-right:30px;
+	padding:15px;
+	text-align:center;
+}
+
+#block-one a {
+	color:#F09;
+}
+
+/*#block-one a:hover {
+	color:#34B5AC;
+}*/
+
+#block-two {
+	width:415px;
+	height:386px;
+	position:relative;
+	float:left;
+}
+
+
+#block-three {
+	width:415px;
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+	
+}
+
+#block-four {
+	width:415px;
+	float:left;
+	margin-bottom:30px;
+}
+
+#audio {
+	width:860px;
+	text-align:center;
+}
+
+.page-headline {
+	width:860px;
+}
+
+.headline {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	display:block;
+	margin-bottom:20px;
+	position:relative;
+	text-align:center;
+}
+
+#about-intro {
+	width:860px;
+}
+#about-text {
+	width:475px;
+	margin:0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#about-intro a {
+color:#F09;
+}
+
+#about-photos {
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+
+.aboutphotos {
+	margin-bottom:30px;
+	padding:5px;
+	float:left;
+	position:relative;
+}
+
+.photo {
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	font-size:12px;
+}
+
+p {
+	line-height:20px;
+	font-size:12px;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}
+
+a.text-link {
+	text-decoration:none;
+	color:#F09;
+}
+
+#news-links {
+	text-align:center;
+	width:860px;
+	margin-bottom:10px;
+}
+
+#news-links a {
+	color:#F09;
+}
+
+.news-event {
+	clear:both;
+	overflow:hidden;
+	border-bottom: 1px solid #000;"
+}
+
+.news-event:last-child {
+	clear:both;
+	overflow:hidden;
+	border-bottom: none;
+}
+
+.no-border {
+	border: none;
+}
+
+.news-headline {
+	font-weight:bold;
+	width:860px;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.news-photo {
+	margin-right:25px;
+	position:relative;
+	text-align:center;
+	margin-bottom:20px;
+	float:left;
+width:200px;
+}
+
+.news-photo figure {
+	margin-bottom:20px;
+	font-size: 12px;
+}
+
+.news-info {
+	min-height:50px;
+	font-size:12px;
+	line-height:15px;
+	margin-bottom:50px;
+	float:left;
+	width:600px;
+}
